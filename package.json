@@ -1,6 +1,7 @@
 {
   "name": "minireducer",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "main": "build/index.js",
   "private": false,
   "description": "Redux fast reducers",
   "keywords": [
@@ -17,7 +18,7 @@
     "@babel/preset-react": "^7.7.4"
   },
   "scripts": {
-    "publish:npm": "rm -rf dist && mkdir dist &&  babel src/components -d dist --copy-files"
+    "build": "babel src -d build"
   },
   "babel": {
     "presets": [

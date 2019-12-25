@@ -1,0 +1,27 @@
+{
+  "name": "minireducer",
+  "version": "1.0.1",
+  "private": false,
+  "description": "Redux fast reducers",
+  "keywords": [
+    "redux",
+    "es6",
+    "react"
+  ],
+  "author": "Jenia Rafalovich",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4"
+  },
+  "scripts": {
+    "publish:npm": "rm -rf dist && mkdir dist &&  babel src/components -d dist --copy-files"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  }
+}

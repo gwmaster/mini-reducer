@@ -1,6 +1,6 @@
 {
   "name": "minireducer",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "main": "build/index.js",
   "private": false,
   "description": "Redux fast reducers",
